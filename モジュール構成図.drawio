@@ -1,0 +1,289 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.4">
+  <diagram name="ページ-1" id="I-de8nVp96Ze9xcxI2WK">
+    <mxGraphModel dx="6080" dy="3590" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="外部ライブラリ" vertex="1">
+          <mxGeometry height="844" width="298" x="1185" y="1831" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="2" style="whiteSpace=wrap;strokeWidth=2;" value="Next.js 16&#xa;App Router" vertex="1">
+          <mxGeometry height="78" width="139" x="87" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="2" style="whiteSpace=wrap;strokeWidth=2;" value="React 19" vertex="1">
+          <mxGeometry height="54" width="122" x="96" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="2" style="whiteSpace=wrap;strokeWidth=2;" value="react-aria-components" vertex="1">
+          <mxGeometry height="54" width="223" x="46" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="2" style="whiteSpace=wrap;strokeWidth=2;" value="react-hook-form" vertex="1">
+          <mxGeometry height="54" width="177" x="68" y="379" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="2" style="whiteSpace=wrap;strokeWidth=2;" value="lucide-react&#xa;アイコン" vertex="1">
+          <mxGeometry height="78" width="147" x="84" y="483" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="2" style="whiteSpace=wrap;strokeWidth=2;" value="xlsx&#xa;Excel生成" vertex="1">
+          <mxGeometry height="78" width="130" x="92" y="611" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="2" style="whiteSpace=wrap;strokeWidth=2;" value="bcryptjs&#xa;パスワードハッシュ" vertex="1">
+          <mxGeometry height="78" width="202" x="56" y="739" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="データ層" vertex="1">
+          <mxGeometry height="1557" width="405" x="8" y="1806" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="PostgreSQL (Supabase)" vertex="1">
+          <mxGeometry height="588" width="335" x="43" y="2750" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="11" style="whiteSpace=wrap;strokeWidth=2;" value="users テーブル" vertex="1">
+          <mxGeometry height="54" width="164" x="94" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="11" style="whiteSpace=wrap;strokeWidth=2;" value="weekly_reports テーブル" vertex="1">
+          <mxGeometry height="54" width="237" x="57" y="147" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="11" style="whiteSpace=wrap;strokeWidth=2;" value="notifications テーブル" vertex="1">
+          <mxGeometry height="54" width="217" x="67" y="251" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="11" style="whiteSpace=wrap;strokeWidth=2;" value="notification_recipients テーブル" vertex="1">
+          <mxGeometry height="78" width="260" x="46" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="11" style="whiteSpace=wrap;strokeWidth=2;" value="notification_replies テーブル" vertex="1">
+          <mxGeometry height="78" width="260" x="46" y="483" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="Supabase Client" vertex="1">
+          <mxGeometry height="148" width="270" x="76" y="2179" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="17" style="whiteSpace=wrap;strokeWidth=2;" value="lib/supabase.ts&#xa;Service Role Client" vertex="1">
+          <mxGeometry height="78" width="195" x="46" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="19" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="バックエンド層" vertex="1">
+          <mxGeometry height="2013" width="717" x="433" y="687" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="バリデーション" vertex="1">
+          <mxGeometry height="148" width="221" x="894" y="2179" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="20" style="whiteSpace=wrap;strokeWidth=2;" value="Zod Schema&#xa;入力検証" vertex="1">
+          <mxGeometry height="78" width="146" x="46" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="ミドルウェア・認証" vertex="1">
+          <mxGeometry height="276" width="280" x="564" y="2115" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="22" style="whiteSpace=wrap;strokeWidth=2;" value="NextAuth.js&#xa;Credentials Provider" vertex="1">
+          <mxGeometry height="78" width="205" x="46" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="24" parent="22" style="whiteSpace=wrap;strokeWidth=2;" value="JWT Token&#xa;セッション管理" vertex="1">
+          <mxGeometry height="78" width="172" x="62" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="25" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="API Routes" vertex="1">
+          <mxGeometry height="276" width="313" x="468" y="1096" as="geometry" />
+        </mxCell>
+        <mxCell id="26" parent="25" style="whiteSpace=wrap;strokeWidth=2;" value="api/auth/nextauth&#xa;認証エンドポイント" vertex="1">
+          <mxGeometry height="78" width="204" x="63" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="27" parent="25" style="whiteSpace=wrap;strokeWidth=2;" value="api/notifications/unread&#xa;未読数エンドポイント" vertex="1">
+          <mxGeometry height="78" width="238" x="46" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="28" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="Server Actions" vertex="1">
+          <mxGeometry height="532" width="284" x="831" y="968" as="geometry" />
+        </mxCell>
+        <mxCell id="29" parent="28" style="whiteSpace=wrap;strokeWidth=2;" value="reports.ts&#xa;週報アクション" vertex="1">
+          <mxGeometry height="78" width="171" x="64" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="30" parent="28" style="whiteSpace=wrap;strokeWidth=2;" value="notifications.ts&#xa;お知らせアクション" vertex="1">
+          <mxGeometry height="78" width="203" x="48" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="31" parent="28" style="whiteSpace=wrap;strokeWidth=2;" value="users.ts&#xa;ユーザーアクション" vertex="1">
+          <mxGeometry height="78" width="200" x="50" y="299" as="geometry" />
+        </mxCell>
+        <mxCell id="32" parent="28" style="whiteSpace=wrap;strokeWidth=2;" value="reports-excel.ts&#xa;Excel出力アクション" vertex="1">
+          <mxGeometry height="78" width="209" x="46" y="427" as="geometry" />
+        </mxCell>
+        <mxCell id="33" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="フロントエンド層" vertex="1">
+          <mxGeometry height="2692" width="2152" x="1518" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="34" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="UIキット (React Aria)" vertex="1">
+          <mxGeometry height="748" width="201" x="2975" y="1879" as="geometry" />
+        </mxCell>
+        <mxCell id="35" parent="34" style="whiteSpace=wrap;strokeWidth=2;" value="Button" vertex="1">
+          <mxGeometry height="54" width="108" x="54" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="36" parent="34" style="whiteSpace=wrap;strokeWidth=2;" value="Form" vertex="1">
+          <mxGeometry height="54" width="96" x="60" y="147" as="geometry" />
+        </mxCell>
+        <mxCell id="37" parent="34" style="whiteSpace=wrap;strokeWidth=2;" value="Table" vertex="1">
+          <mxGeometry height="54" width="98" x="59" y="251" as="geometry" />
+        </mxCell>
+        <mxCell id="38" parent="34" style="whiteSpace=wrap;strokeWidth=2;" value="Modal" vertex="1">
+          <mxGeometry height="54" width="102" x="57" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="39" parent="34" style="whiteSpace=wrap;strokeWidth=2;" value="Menu" vertex="1">
+          <mxGeometry height="54" width="98" x="60" y="459" as="geometry" />
+        </mxCell>
+        <mxCell id="40" parent="34" style="whiteSpace=wrap;strokeWidth=2;" value="Popover" vertex="1">
+          <mxGeometry height="54" width="117" x="50" y="563" as="geometry" />
+        </mxCell>
+        <mxCell id="41" parent="34" style="whiteSpace=wrap;strokeWidth=2;" value="TextField" vertex="1">
+          <mxGeometry height="54" width="126" x="46" y="667" as="geometry" />
+        </mxCell>
+        <mxCell id="42" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="共通コンポーネント" vertex="1">
+          <mxGeometry height="1044" width="295" x="2904" y="712" as="geometry" />
+        </mxCell>
+        <mxCell id="43" parent="42" style="whiteSpace=wrap;strokeWidth=2;" value="Header&#xa;ヘッダー・ナビ" vertex="1">
+          <mxGeometry height="78" width="170" x="70" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="44" parent="42" style="whiteSpace=wrap;strokeWidth=2;" value="ReportForm&#xa;週報フォーム" vertex="1">
+          <mxGeometry height="78" width="155" x="78" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="45" parent="42" style="whiteSpace=wrap;strokeWidth=2;" value="ReviewActions&#xa;レビュー操作" vertex="1">
+          <mxGeometry height="78" width="162" x="74" y="299" as="geometry" />
+        </mxCell>
+        <mxCell id="46" parent="42" style="whiteSpace=wrap;strokeWidth=2;" value="AdminFilter&#xa;フィルタ" vertex="1">
+          <mxGeometry height="78" width="144" x="83" y="427" as="geometry" />
+        </mxCell>
+        <mxCell id="47" parent="42" style="whiteSpace=wrap;strokeWidth=2;" value="ExportExcelButton&#xa;Excel出力" vertex="1">
+          <mxGeometry height="78" width="192" x="59" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="48" parent="42" style="whiteSpace=wrap;strokeWidth=2;" value="Pagination&#xa;ページネーション" vertex="1">
+          <mxGeometry height="78" width="188" x="62" y="683" as="geometry" />
+        </mxCell>
+        <mxCell id="49" parent="42" style="whiteSpace=wrap;strokeWidth=2;" value="Providers&#xa;SessionProvider" vertex="1">
+          <mxGeometry height="78" width="171" x="70" y="811" as="geometry" />
+        </mxCell>
+        <mxCell id="50" parent="42" style="whiteSpace=wrap;strokeWidth=2;" value="NotificationReadEvent&#xa;既読イベント" vertex="1">
+          <mxGeometry height="78" width="220" x="46" y="939" as="geometry" />
+        </mxCell>
+        <mxCell id="51" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="ページ (App Router)" vertex="1">
+          <mxGeometry height="604" width="2082" x="1553" y="33" as="geometry" />
+        </mxCell>
+        <mxCell id="52" parent="51" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="ユーザーページ /dashboard" vertex="1">
+          <mxGeometry height="178" width="1406" x="346" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="53" parent="52" style="whiteSpace=wrap;strokeWidth=2;" value="/dashboard&#xa;ダッシュボード" vertex="1">
+          <mxGeometry height="78" width="171" x="43" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="54" parent="52" style="whiteSpace=wrap;strokeWidth=2;" value="/dashboard/notifications&#xa;お知らせ一覧" vertex="1">
+          <mxGeometry height="78" width="240" x="264" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="55" parent="52" style="whiteSpace=wrap;strokeWidth=2;" value="/dashboard/notifications/id&#xa;お知らせ詳細" vertex="1">
+          <mxGeometry height="78" width="262" x="554" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="56" parent="52" style="whiteSpace=wrap;strokeWidth=2;" value="/dashboard/reports/id&#xa;週報詳細" vertex="1">
+          <mxGeometry height="78" width="224" x="866" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="57" parent="52" style="whiteSpace=wrap;strokeWidth=2;" value="/dashboard/reports/new&#xa;週報作成" vertex="1">
+          <mxGeometry height="78" width="240" x="1139" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="58" parent="51" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="管理者ページ /admin" vertex="1">
+          <mxGeometry height="178" width="2007" x="46" y="271" as="geometry" />
+        </mxCell>
+        <mxCell id="59" parent="58" style="whiteSpace=wrap;strokeWidth=2;" value="/admin&#xa;ダッシュボード" vertex="1">
+          <mxGeometry height="78" width="171" x="43" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="60" parent="58" style="whiteSpace=wrap;strokeWidth=2;" value="/admin/users&#xa;ユーザー管理" vertex="1">
+          <mxGeometry height="78" width="157" x="264" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="61" parent="58" style="whiteSpace=wrap;strokeWidth=2;" value="/admin/users/new&#xa;ユーザー作成" vertex="1">
+          <mxGeometry height="78" width="195" x="471" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="62" parent="58" style="whiteSpace=wrap;strokeWidth=2;" value="/admin/users/id&#xa;ユーザー編集" vertex="1">
+          <mxGeometry height="78" width="179" x="716" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="63" parent="58" style="whiteSpace=wrap;strokeWidth=2;" value="/admin/notifications&#xa;お知らせ一覧" vertex="1">
+          <mxGeometry height="78" width="210" x="945" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="64" parent="58" style="whiteSpace=wrap;strokeWidth=2;" value="/admin/notifications/new&#xa;お知らせ作成" vertex="1">
+          <mxGeometry height="78" width="248" x="1206" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="65" parent="58" style="whiteSpace=wrap;strokeWidth=2;" value="/admin/notifications/id&#xa;お知らせ詳細" vertex="1">
+          <mxGeometry height="78" width="232" x="1504" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="66" parent="58" style="whiteSpace=wrap;strokeWidth=2;" value="/admin/reports/id&#xa;週報レビュー" vertex="1">
+          <mxGeometry height="78" width="194" x="1786" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="67" parent="51" style="whiteSpace=wrap;strokeWidth=2;" value="/login&#xa;ログインページ" vertex="1">
+          <mxGeometry height="78" width="169" x="964" y="499" as="geometry" />
+        </mxCell>
+        <mxCell id="68" edge="1" parent="1" source="51" style="curved=1;startArrow=none;endArrow=block;exitX=0.7;exitY=1;entryX=0.5;entryY=0;" target="42" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3051" y="662" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="69" edge="1" parent="1" source="42" style="curved=1;startArrow=none;endArrow=block;exitX=0.58;exitY=1;entryX=0.5;entryY=0;" target="34" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3075" y="1781" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="70" edge="1" parent="1" source="51" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.41;" target="28" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2595" y="687" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="71" edge="1" parent="1" source="28" style="curved=1;startArrow=none;endArrow=block;exitX=0.55;exitY=1;entryX=0.5;entryY=0;" target="20" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1005" y="1781" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72" edge="1" parent="1" source="28" style="curved=1;startArrow=none;endArrow=block;exitX=0.27;exitY=1;entryX=0.65;entryY=0;" target="22" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="839" y="1781" />
+              <mxPoint x="839" y="1806" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="73" edge="1" parent="1" source="28" style="curved=1;startArrow=none;endArrow=block;exitX=0.2;exitY=1;entryX=0.86;entryY=0;" target="17" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="799" y="1781" />
+              <mxPoint x="799" y="1806" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="74" edge="1" parent="1" source="25" style="curved=1;startArrow=none;endArrow=block;exitX=0.53;exitY=1;entryX=0.46;entryY=0;" target="22" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="664" y="1781" />
+              <mxPoint x="664" y="1806" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="75" edge="1" parent="1" source="25" style="curved=1;startArrow=none;endArrow=block;exitX=0.43;exitY=1;entryX=0.7;entryY=0;" target="17" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="539" y="1781" />
+              <mxPoint x="539" y="1806" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="76" edge="1" parent="1" source="17" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="77" edge="1" parent="1" source="42" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.65;entryX=1;entryY=0.43;" target="2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2523" y="1781" />
+              <mxPoint x="2523" y="1806" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="78" edge="1" parent="1" source="51" style="curved=1;startArrow=none;endArrow=block;exitX=0.26;exitY=1;entryX=1;entryY=0.39;" target="2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2056" y="662" />
+              <mxPoint x="2056" y="1806" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
